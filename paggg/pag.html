@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Movie Review</title>
+    <link rel="stylesheet" type="text/css" href="lll.css">
+</head>
+
+<body>
+
+    <div id="cabecalho">
+        <header>
+            <div id="logo">
+                <h1><a href="#">Movie Review</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">ÁLBUM</a></li>
+                    <li><a href="#">ONDE OUVIR</a></li>
+                    <li><a href="#">GÊNERO</a></li>
+                    <li><a href="#">NOME</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="principal">
+        <div id="conteudo"> <!-- conteudo da página -->
+
+            <section id="capa">
+                <img src="../imagens/Purple Musical Sound Music Logo .png" alt="Logo Musical">
+            </section>
+
+            <section id="postagens">
+                <h3>Conheça essa música</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/V1oor7kC8lU?si=iFAbZG8GiynbCGS3"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </section>
+
+        </div>
+
+        <aside>
+            <section id="depoimento">
+                <h5>Música é uma palavra de origem grega - vem de musiké téchne, a arte das musas - e se constitui,
+                    basicamente, de uma sucessão de sons, entremeados por curtos períodos de silêncio, organizada ao
+                    longo de um determinado tempo.</h5>
+            </section>
+
+            <section id="visita">
+                <form>
+                    <fieldset>
+                        <legend>Selecione um tipo musical</legend>
+                        <p>
+                            <label for="genero">GÊNERO</label>
+                            <input type="text" id="genero" value="">
+                        </p>
+                        <p>
+                            <label for="NOME">Nome</label>
+                            <input type="text" id="NOME" value="">
+                        </p>
+                        <p>
+                            <label for="duracao">Duração:</label>
+                            <input type="number" id="duracao" name="duracao" min="0" step="1" value="3">
+                        </p>
+                    </fieldset>
+                    <input type="submit" value="Verificar as informações">
+                </form>
+            </section>
+
+            <section id="Plataformas">
+                <h4>ONDE OUVIR </h4>
+                <map name="mapaLinks">
+                    <area shape="rect" coords="0,0,159,158" alt="Link 1"
+                        href="https://www.spotify.com/br-pt/premium/?utm_source=br-pt_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_latam_br_premiumbusiness_core_brand+contextual-desktop+text+exact+br-pt+google&gad_source=1&gclid=Cj0KCQiAgqGrBhDtARIsAM5s0_ncuPcf6HKi5W437j5jr6IMt_H0Ynw1ESjvIHZhmf858t1d_NixvVIaAltgEALw_wcB&gclsrc=aw.ds">
+                    <area shape="rect" coords="160,0,319,158" alt="Link 2" href="https://www.youtube.com/premium">
+                </map>
+                <h6>selecione na Imagem</h6>
+                <img src="../imagens/pra atualizar.jpeg" alt="Imagem para atualizar" usemap="#mapaLinks" height="158px"
+                    width="319px">
+            </section>
+        </aside>
+    </div> <!-- fim do conteudo -->
+
+    <!-- Seção de Resenhas de Álbuns -->
+    <section id="resenhas">
+        <!-- Seção de Resenhas de Álbuns -->
+        <h2>Resenhas de Álbuns</h2>
+        <article>
+            <h3>Álbum 1</h3>
+            <p>Resenha detalhada sobre o álbum, incluindo sua impressão sobre a música, produção e temática.</p>
+        </article>
+
+        <article>
+            <h3>Álbum 2</h3>
+            <p>Outra resenha interessante sobre um álbum diferente.</p>
+        </article>
+    </section>
+
+    <section id="entrevistas">
+        <!-- Seção de Entrevistas com Artistas -->
+        <h2>Entrevistas com Artistas</h2>
+        <article>
+            <h3>Entrevista com Artista 1</h3>
+            <p>Texto da entrevista com perguntas e respostas interessantes.</p>
+        </article>
+
+        <article>
+            <h3>Entrevista com Artista 2</
+                <h3>Entrevista com Artista 2</h3>
+                <p>Outra entrevista fascinante com um artista diferente.</p>
+            </article>
+        </section>
+    
+        <section id="novosTalentos">
+            <!-- Seção de Destaque de Novos Talentos -->
+            <h2>Destaque de Novos Talentos</h2>
+            <article>
+                <h3>Artista 1</h3>
+                <p>Apresentação do novo talento, destacando suas músicas e realizações.</p>
+            </article>
+    
+            <article>
+                <h3>Artista 2</h3>
+                <p>Outro destaque de um talento em ascensão na cena musical.</p>
+            </article>
+        </section>
+    
+        <section id="curiosidades">
+            <!-- Nova Seção: Curiosidades Musicais -->
+            <h2>Curiosidades Musicais</h2>
+            <article>
+                <h3>A Música e o Cérebro</h3>
+                <p>A música pode ativar diversas áreas do cérebro, influenciando emoções, memória e até mesmo a motivação.</p>
+            </article>
+        </section>
+    
+    </body>
+    
+    </html>
